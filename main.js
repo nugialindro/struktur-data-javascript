@@ -72,3 +72,35 @@ console.log(`yaitu ${fiturBitokBaru}`)
 
 const arrays =[fiturBitokLama, fiturBitokBaru]
 console.log(arrays)
+
+// array push
+const jaringanBlockchain = ["Ethereum", "Smartchain", "Solana"]
+jaringanBlockchain.push("Avalanche")
+
+console.log(jaringanBlockchain)
+
+// array pop
+const tokenEthereum = ["Shiba", "Doge", "Sushi","BNB"]
+tokenEthereum.pop()
+
+console.log(tokenEthereum)
+
+// array shift
+const tokenSmartChain = ["ETH", "TKO", "SFP"]
+tokenSmartChain.shift()
+
+console.log(tokenSmartChain)
+
+// array unshift
+const tokenAvalanche = ["HeC","Avax", "Xava"]
+tokenAvalanche.unshift("PTP")
+
+console.log(tokenAvalanche)
+
+// array forEach
+const tokenGodwoken = ["KOI","YOK", "DRM"]
+tokenGodwoken.forEach(function(item)
+{
+    console.log(item)
+})
+
